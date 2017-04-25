@@ -4,4 +4,7 @@ Just a basic starting point built on the example docs for akka clustering with a
 and some basic config stuff
 
 # To Build
+
+sbt test cucumber
+
 ![sbt test cucumber](https://travis-ci.org/aaronp/mycluster.svg?branch=master)
