@@ -8,7 +8,7 @@ scalaVersion := "2.11.8"
 
 javacOptions ++= Seq("-source", "1.8", "-target", "1.8")
 
-scalacOptions ++= Seq("-deprecation", "-unchecked", "-feature")
+scalacOptions ++= Seq("-deprecation", "-unchecked", "-feature", "-target:jvm-1.8")
 
 mainClass in(Compile, run) := Some("mycluster.cluster.Main")
 
